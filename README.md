@@ -2,12 +2,12 @@
 
 We want to build a marketplace outsorcing Jobs to subcontractors backed by an HTTP API.
 
-1. We have Customers with the following mandatory attributes:
+1. We have `Customer`s with the following mandatory attributes:
     * First Name
     * Last Name
     * ID
 
-2. We have Contractors with the following mandatory attributes:
+2. We have `Contractor`s with the following mandatory attributes:
     * Name (of the business)
     * ID
     * Rating
@@ -22,11 +22,11 @@ We want to build a marketplace outsorcing Jobs to subcontractors backed by an HT
         * Highest rating
         * Lowest price
 
-4. A Customer can create a Job
+4. A Customer can create a `Job`
 
 5. A Contractor can search Jobs and create a JobOffer for a job with `price`
 
-6. 24 Hours before the job Start Date a Job is matched with JobOffers based on the Match Strategy, which creates a Contract.
+6. 24 Hours before the job Start Date a Job is matched with `JobOffer`s based on the Match Strategy, which creates a `Contract`.
 
 Create a 2-tier application in C# having a RESTFul API and a persistence layer.
     * CRUD API for Customers

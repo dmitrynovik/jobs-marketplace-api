@@ -29,15 +29,13 @@ We want to build a marketplace outsorcing Jobs to subcontractors backed by an HT
 6. 24 Hours before the job Start Date a Job is matched with `JobOffer`s based on the Match Strategy, which creates a `Contract`.
 
 Create a 2-tier application in C# having a RESTFul API and a persistence layer:
-* CRUD API for Customers
 * The Search API for Customers by its attributes such as ID or Last Name which should be efficient and secure.
-* CRUD API for Contractors
 * The Search API for Contractors by its attributes such as ID or Name which should be efficient and secure.
-* CRUD API for Jobs
-* CRUD API for JobOffers
+* CRUD API for Jobs with appropriate validation
+* CRUD API for JobOffers with appropriate validation
 * A background job creating contracts
 * The persistence layer can use a data store of your choice (example: PostgreSQL on Docker, SQLite, or just files on disk). 
-
+* You may seed some data such as Customers and Contractors.
 
 ## What we will be looking at
 * OOP & Solid Principles

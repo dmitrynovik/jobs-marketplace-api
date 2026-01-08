@@ -28,7 +28,7 @@ We want to build a marketplace outsorcing Jobs to subcontractors backed by an HT
 
 6. 24 Hours before the job Start Date a Job is matched with `JobOffer`s based on the Match Strategy, which creates a `Contract`.
 
-Create a 2-tier application in C# having a RESTFul API and a persistence layer.
+Create a 2-tier application in C# having a RESTFul API and a persistence layer:
     * CRUD API for Customers
     * The Search API for Customers by its attributes such as ID or Last Name which should be efficient and secure.
     * CRUD API for Contractors

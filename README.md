@@ -12,7 +12,7 @@ We want to build a marketplace outsorcing Jobs to subcontractors backed by an HT
     * ID
     * Rating
 
-3. We have Jobs with
+3. We have `Job`s with
     * ID (generated)
     * Start Date
     * Due Date

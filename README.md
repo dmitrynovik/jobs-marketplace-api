@@ -24,7 +24,7 @@ We want to build a marketplace outsorcing Jobs to subcontractors backed by an HT
 
 4. A Customer can create a `Job`
 
-5. A Contractor can search Jobs and create a JobOffer for a job with `price`
+5. A Contractor can search `Jobs` and create a JobOffer for a job with `price`
 
 6. 24 Hours before the job Start Date a Job is matched with `JobOffer`s based on the Match Strategy, which creates a `Contract`.
 

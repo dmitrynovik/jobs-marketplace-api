@@ -24,7 +24,7 @@ We want to build a marketplace outsorcing Jobs to subcontractors backed by an HT
 
 5. A Contractor can search `Jobs` and create a `JobOffer` for a job with `price`
 
-6. A Customer can accept a `JobOffer` which creates a `Contract`
+6. A Customer can accept a `JobOffer`
 
 # Requirements
 Create a 2-tier application in C# having a RESTFul API and a persistence layer:

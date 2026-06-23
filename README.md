@@ -34,7 +34,7 @@ Create a 2-tier application in C# having a RESTFul API and a persistence layer:
 * CRUD API for Jobs with appropriate validation
 * CRUD API for JobOffers with appropriate validation
 * The persistence layer can use a data store of your choice (example: PostgreSQL on Docker, SQLite, files on disk, or just memory with a right abstraction).
-* **IMPORTANT: The system needs to scale. Say, we aim to have 100 000 businesses and 10 million customers, and perform concurrent requests serving country-wide customers base.**
+* **IMPORTANT: The system needs to scale and perform. Say, we aim to have 100 000 businesses and 10 million customers, and perform concurrent requests serving country-wide customers base.**
  
 # Hints:
 * You may seed some data such as Customers and Contractors in the system.
